@@ -6,7 +6,6 @@ public class Main {
 
         Random random = new Random();
         int randNumberToGuess = random.nextInt(100);
-        System.out.println(randNumberToGuess);
         int guessTryCounter = 5;
 
         System.out.print("Enter an integer between 0 and 99: ");
